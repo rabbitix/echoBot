@@ -26,7 +26,7 @@ def run():
     also get the text and count.
 
     """
-    text = input('gimme yor text in english: > ')
+    text = input('gimme your text in english: > ')
     count = input('how many send : > ')
     pos_x,pos_y = get_data_and_posetion() 
     print("bot is started")
