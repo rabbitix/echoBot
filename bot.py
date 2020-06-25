@@ -29,11 +29,8 @@ def run():
     text = input('gimme yor text in english: > ')
     count = input('how many send : > ')
     pos_x,pos_y = get_data_and_posetion() 
-    steps_count = len([i for i in range(0,int(count),50)])
-    fif_count = steps_count * .4 
     print("bot is started")
     print('')
-    print(f'it will take {int(fif_count)} sec to finish! ')
     for i in range(int(count)):
         # every 50 times wait for 0.4 sec
         if i % 50 == 0:
@@ -51,13 +48,13 @@ def run():
         pyautogui.hotkey("enter")
     
     print('')
-    print('hey im Done!')
+    print('im Done!')
 
 
 if __name__ == "__main__":
     run()
     print('')
     print('_______________________')
-    print("yo! join @rabbitix :D")
+    print("> Join: @rabbitix :D")
     print('_______________________')
 
