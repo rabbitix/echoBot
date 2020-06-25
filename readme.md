@@ -14,7 +14,7 @@ run the `bot.py` file with this command:
 
 
 ### Notice 
-__i do not responsible for any use of this litle script!!__
+__i do NOT responsible for any use of this little script!!__
 
 **if you want to stop bot when you want, try to move mouse to top left position**
 
